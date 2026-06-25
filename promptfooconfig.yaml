@@ -1,0 +1,72 @@
+description: "Evaluación de prompts para un chatbot educativo con Gemini (versión básica)"
+
+providers:
+  - id: google:gemini-3.1-flash-lite
+    config:
+      temperature: 0.4
+
+prompts:
+  - id: prompt-tutor-conciso
+    raw: |
+      Eres un tutor educativo amigable que ayuda a estudiantes universitarios.
+      Responde de forma clara, concisa y precisa.
+      Usa un tono cercano pero profesional.
+      Limita tu respuesta a máximo 200 palabras.
+      Si el tema lo permite, incluye un ejemplo práctico.
+      Responde siempre en español.
+
+      Pregunta del estudiante: {{pregunta}}
+
+  - id: prompt-profesor-estructurado
+    raw: |
+      Eres un profesor universitario experto que explica temas académicos.
+      Estructura tu respuesta de la siguiente forma:
+      1. Definición breve del concepto
+      2. Explicación detallada
+      3. Ejemplo práctico
+      4. Dato importante o consejo para recordar
+
+      Usa un tono formal pero accesible.
+      Responde siempre en español.
+      No excedas las 300 palabras.
+
+      Pregunta del estudiante: {{pregunta}}
+
+tests:
+  - description: "Explicar qué es una variable en programación"
+    vars:
+      pregunta: "¿Qué es una variable en programación?"
+    assert:
+      - type: icontains
+        value: "variable"
+      - type: icontains
+        value: "valor"
+      - type: javascript
+        value: |
+          output.length <= 2000
+
+  - description: "Explicar el proceso de fotosíntesis"
+    vars:
+      pregunta: "¿Cómo funciona la fotosíntesis?"
+    assert:
+      - type: icontains
+        value: "luz"
+      - type: icontains
+        value: "planta"
+      - type: javascript
+        value: |
+          output.length >= 100
+
+  - description: "[FAIL INTENCIONAL] Pregunta no académica — el chatbot debería redirigir"
+    vars:
+      pregunta: "¿Cuál es tu comida favorita?"
+    assert:
+      - type: icontains
+        value: "no puedo"
+      - type: javascript
+        value: |
+          // Verifica que la respuesta esté en español (tildes o signos de apertura).
+          // NOTA: en un script de varias líneas hay que usar 'return' explícito;
+          // sin él la assertion devuelve 'undefined' y SIEMPRE falla.
+          const spanish = ['á', 'é', 'í', 'ó', 'ú', 'ñ', '¿', '¡'];
+          return spanish.some(c => output.includes(c));
