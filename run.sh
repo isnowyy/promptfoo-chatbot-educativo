@@ -14,11 +14,22 @@ set -euo pipefail
 # Promptfoo se instaló con prefijo de usuario (~/.npm-global)
 export PATH="$HOME/.npm-global/bin:$PATH"
 
-# API Key de Gemini (puedes sobreescribirla exportándola antes de llamar al script)
-export GEMINI_API_KEY="${GEMINI_API_KEY:-TU_API_KEY_AQUI}"
-
 # Carpeta del proyecto (la del propio script)
 cd "$(dirname "$0")"
+
+# API Key de Gemini:
+#   1) usa la que ya hayas exportado (export GEMINI_API_KEY=...), o
+#   2) si no, la lee del archivo .env de esta carpeta.
+if [ -z "${GEMINI_API_KEY:-}" ] && [ -f .env ]; then
+  set -a; . ./.env; set +a
+fi
+
+if [ -z "${GEMINI_API_KEY:-}" ] || [ "$GEMINI_API_KEY" = "TU_API_KEY_AQUI" ]; then
+  echo "ERROR: falta tu API key de Gemini." >&2
+  echo "       Opción A: export GEMINI_API_KEY=\"tu_key_real\"" >&2
+  echo "       Opción B: crea un archivo .env con: GEMINI_API_KEY=tu_key_real" >&2
+  exit 1
+fi
 
 # --- Comprobaciones ----------------------------------------------------------
 

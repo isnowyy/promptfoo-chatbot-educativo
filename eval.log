@@ -1,9 +1,9 @@
 >> Ejecutando promptfoo eval (serializado, pausa de 4s entre llamadas)...
-(node:147943) ExperimentalWarning: DecompressInterceptor is experimental and subject to change
+(node:163927) ExperimentalWarning: DecompressInterceptor is experimental and subject to change
 (Use `node --trace-warnings ...` to show where the warning was created)
 Cache is disabled.
 Running at concurrency=1 because 4000ms delay was requested between API calls
-Starting evaluation eval-pAV-2026-06-25T17:02:42
+Starting evaluation eval-3Xc-2026-06-25T17:13:58
 Running 6 test cases (up to 1 at a time)...
 
 [90m┌────────────────────────────────────────[39m[90m┬────────────────────────────────────────[39m[90m┬────────────────────────────────────────┐[39m
@@ -19,47 +19,44 @@ Running 6 test cases (up to 1 at a time)...
 [90m├────────────────────────────────────────[39m[90m┼────────────────────────────────────────[39m[90m┼────────────────────────────────────────┤[39m
 [90m│[39m ¿Qué es una variable en programación?  [90m│[39m [PASS] ¡Hola! Qué buena pregunta. En   [90m│[39m [PASS] Estimado estudiante, es un      [90m│[39m
 [90m│[39m                                        [90m│[39m programación, una **variable** es      [90m│[39m placer saludarte. Abordemos este       [90m│[39m
-[90m│[39m                                        [90m│[39m básicamente un espacio de memoria con  [90m│[39m concepto fundamental de la             [90m│[39m
-[90m│[39m                                        [90m│[39m un nombre asignado donde guardamos un  [90m│[39m informática.                           [90m│[39m
-[90m│[39m                                        [90m│[39m dato que puede cambiar durante la      [90m│[39m ### 1. Definición breve                [90m│[39m
-[90m│[39m                                        [90m│[39m ejecución de un programa. Imagínala    [90m│[39m Una variable es un espacio de memoria  [90m│[39m
-[90m│[39m                                        [90m│[39m como una "caja" etiquetada donde       [90m│[39m reservado en el ordenador, etiquetado  [90m│[39m
-[90m│[39m                                        [90m│[39m alma...                                [90m│[39m con un nombre específico, diseñado     [90m│[39m
-[90m│[39m                                        [90m│[39m                                        [90m│[39m para almace...                         [90m│[39m
+[90m│[39m                                        [90m│[39m básicamente un "contenedor" o espacio  [90m│[39m concepto fundamental de la             [90m│[39m
+[90m│[39m                                        [90m│[39m en la memoria de tu computadora donde  [90m│[39m informática.                           [90m│[39m
+[90m│[39m                                        [90m│[39m guardas un valor que puede cambiar     [90m│[39m ### 1. Definición breve                [90m│[39m
+[90m│[39m                                        [90m│[39m durante la ejecución de un programa.   [90m│[39m Una variable es un espacio de          [90m│[39m
+[90m│[39m                                        [90m│[39m Imagina que es una caja con una et...  [90m│[39m almacenamiento con nombre en la        [90m│[39m
+[90m│[39m                                        [90m│[39m                                        [90m│[39m memoria de la computadora, diseñado    [90m│[39m
+[90m│[39m                                        [90m│[39m                                        [90m│[39m para contener un valor q...            [90m│[39m
 [90m├────────────────────────────────────────[39m[90m┼────────────────────────────────────────[39m[90m┼────────────────────────────────────────┤[39m
 [90m│[39m ¿Cómo funciona la fotosíntesis?        [90m│[39m [PASS] ¡Hola! Es un gusto saludarte.   [90m│[39m [PASS] Estimado estudiante, es un      [90m│[39m
-[90m│[39m                                        [90m│[39m La fotosíntesis es el proceso mediante [90m│[39m placer abordar este pilar fundamental  [90m│[39m
-[90m│[39m                                        [90m│[39m el cual las plantas, algas y algunas   [90m│[39m de la biología.                        [90m│[39m
+[90m│[39m                                        [90m│[39m La fotosíntesis es el proceso mediante [90m│[39m placer abordar este proceso            [90m│[39m
+[90m│[39m                                        [90m│[39m el cual las plantas, algas y algunas   [90m│[39m fundamental para la vida en la Tierra. [90m│[39m
 [90m│[39m                                        [90m│[39m bacterias transforman energía lumínica [90m│[39m **1. Definición breve**                [90m│[39m
 [90m│[39m                                        [90m│[39m en energía química para alimentarse.   [90m│[39m La fotosíntesis es el proceso          [90m│[39m
-[90m│[39m                                        [90m│[39m Funciona en dos etapas principales     [90m│[39m bioquímico mediante el cual los        [90m│[39m
-[90m│[39m                                        [90m│[39m dentro de los cloroplastos:            [90m│[39m organismos autótrofos (plantas, algas  [90m│[39m
-[90m│[39m                                        [90m│[39m ...                                    [90m│[39m y algunas bacterias) transforman la    [90m│[39m
-[90m│[39m                                        [90m│[39m                                        [90m│[39m energ...                               [90m│[39m
+[90m│[39m                                        [90m│[39m Funciona en dos etapas principales:    [90m│[39m metabólico mediante el cual las        [90m│[39m
+[90m│[39m                                        [90m│[39m 1.  **Fase luminosa:** Ocur...         [90m│[39m plantas, algas y algunas bacterias     [90m│[39m
+[90m│[39m                                        [90m│[39m                                        [90m│[39m transforman energía lumínica en...     [90m│[39m
 [90m├────────────────────────────────────────[39m[90m┼────────────────────────────────────────[39m[90m┼────────────────────────────────────────┤[39m
-[90m│[39m ¿Cuál es tu comida favorita?           [90m│[39m [PASS] ¡Hola! Qué buena pregunta para  [90m│[39m [FAIL] Estimado estudiante, es un      [90m│[39m
-[90m│[39m                                        [90m│[39m romper el hielo. Como soy una          [90m│[39m placer saludarte. Aunque como entidad  [90m│[39m
-[90m│[39m                                        [90m│[39m inteligencia artificial, no tengo un   [90m│[39m de inteligencia artificial carezco de  [90m│[39m
-[90m│[39m                                        [90m│[39m cuerpo físico ni sentido del gusto,    [90m│[39m necesidades biológicas y, por ende, de [90m│[39m
-[90m│[39m                                        [90m│[39m por lo que no puedo comer. ¡Así que    [90m│[39m un sentido del gusto, abordaré tu      [90m│[39m
-[90m│[39m                                        [90m│[39m técnicamente no tengo una comida       [90m│[39m pregunta desde una perspectiva         [90m│[39m
-[90m│[39m                                        [90m│[39m favorita!                              [90m│[39m académica.                             [90m│[39m
-[90m│[39m                                        [90m│[39m Sin embargo, si tuviera que elegi...   [90m│[39m **1. Definición breve**                [90m│[39m
-[90m│[39m                                        [90m│[39m                                        [90m│[39m La p...                                [90m│[39m
+[90m│[39m ¿Cuál es tu comida favorita?           [90m│[39m [FAIL] ¡Hola! Qué buena pregunta para  [90m│[39m [FAIL] Estimado estudiante, es un      [90m│[39m
+[90m│[39m                                        [90m│[39m romper el hielo. Como soy una          [90m│[39m placer saludarte. Como académico, mi   [90m│[39m
+[90m│[39m                                        [90m│[39m inteligencia artificial, no tengo la   [90m│[39m "nutrición" principal proviene del     [90m│[39m
+[90m│[39m                                        [90m│[39m capacidad física de comer ni el        [90m│[39m conocimiento, pero entiendo tu         [90m│[39m
+[90m│[39m                                        [90m│[39m sentido del gusto, así que no tengo    [90m│[39m curiosidad por los aspectos más        [90m│[39m
+[90m│[39m                                        [90m│[39m una "comida favorita" en el sentido    [90m│[39m humanos de nuestra existencia.         [90m│[39m
+[90m│[39m                                        [90m│[39m tradicional.                           [90m│[39m **1. Definición**                      [90m│[39m
+[90m│[39m                                        [90m│[39m Sin embargo, si tuviera que ele...     [90m│[39m Desde una perspectiva biológica y c... [90m│[39m
 [90m└────────────────────────────────────────[39m[90m┴────────────────────────────────────────[39m[90m┴────────────────────────────────────────┘[39m
-✓ Eval complete (ID: eval-pAV-2026-06-25T17:02:42)
+✓ Eval complete (ID: eval-3Xc-2026-06-25T17:13:58)
 
 » View results: promptfoo view
 » Share with your team: https://promptfoo.app
 » Feedback: https://promptfoo.dev/feedback
 
-Total Tokens: 2.385
-  Eval: 2.385 (526 prompt, 1.859 completion)
+Total Tokens: 2.397
+  Eval: 2.397 (526 prompt, 1.871 completion)
 
 Results:
-  ✓ 5 passed (83.33%)
-  ✗ 1 failed (16.67%)
+  ✓ 4 passed (66.67%)
+  ✗ 2 failed (33.33%)
   0 errors (0%)
-Duration: 50s (concurrency: 1)
+Duration: 56s (concurrency: 1)
 
-EXIT=100
