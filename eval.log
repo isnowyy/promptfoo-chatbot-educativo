@@ -1,8 +1,9 @@
-(node:103938) ExperimentalWarning: DecompressInterceptor is experimental and subject to change
+>> Ejecutando promptfoo eval (serializado, pausa de 4s entre llamadas)...
+(node:147943) ExperimentalWarning: DecompressInterceptor is experimental and subject to change
 (Use `node --trace-warnings ...` to show where the warning was created)
 Cache is disabled.
 Running at concurrency=1 because 4000ms delay was requested between API calls
-Starting evaluation eval-tpS-2026-06-25T16:29:51
+Starting evaluation eval-pAV-2026-06-25T17:02:42
 Running 6 test cases (up to 1 at a time)...
 
 [90m┌────────────────────────────────────────[39m[90m┬────────────────────────────────────────[39m[90m┬────────────────────────────────────────┐[39m
@@ -17,47 +18,48 @@ Running 6 test cases (up to 1 at a time)...
 [90m│[39m[1m[34m                                        [39m[22m[90m│[39m[1m[34m Si el tema lo perm...                  [39m[22m[90m│[39m[1m[34m 4. Dato importante o c...              [39m[22m[90m│[39m
 [90m├────────────────────────────────────────[39m[90m┼────────────────────────────────────────[39m[90m┼────────────────────────────────────────┤[39m
 [90m│[39m ¿Qué es una variable en programación?  [90m│[39m [PASS] ¡Hola! Qué buena pregunta. En   [90m│[39m [PASS] Estimado estudiante, es un      [90m│[39m
-[90m│[39m                                        [90m│[39m programación, una **variable** es      [90m│[39m placer abordar esta consulta           [90m│[39m
-[90m│[39m                                        [90m│[39m básicamente un espacio de memoria con  [90m│[39m fundamental para tu formación en       [90m│[39m
-[90m│[39m                                        [90m│[39m nombre donde guardamos un valor que    [90m│[39m ciencias de la computación.            [90m│[39m
-[90m│[39m                                        [90m│[39m puede cambiar durante la ejecución de  [90m│[39m ### 1. Definición breve                [90m│[39m
-[90m│[39m                                        [90m│[39m un programa.                           [90m│[39m Una variable es un espacio de          [90m│[39m
-[90m│[39m                                        [90m│[39m Imagina que la variable es una **caja  [90m│[39m almacenamiento con nombre en la        [90m│[39m
-[90m│[39m                                        [90m│[39m etiquetada**: el no...                 [90m│[39m memoria de la computadora, diseñado    [90m│[39m
-[90m│[39m                                        [90m│[39m                                        [90m│[39m para co...                             [90m│[39m
+[90m│[39m                                        [90m│[39m programación, una **variable** es      [90m│[39m placer saludarte. Abordemos este       [90m│[39m
+[90m│[39m                                        [90m│[39m básicamente un espacio de memoria con  [90m│[39m concepto fundamental de la             [90m│[39m
+[90m│[39m                                        [90m│[39m un nombre asignado donde guardamos un  [90m│[39m informática.                           [90m│[39m
+[90m│[39m                                        [90m│[39m dato que puede cambiar durante la      [90m│[39m ### 1. Definición breve                [90m│[39m
+[90m│[39m                                        [90m│[39m ejecución de un programa. Imagínala    [90m│[39m Una variable es un espacio de memoria  [90m│[39m
+[90m│[39m                                        [90m│[39m como una "caja" etiquetada donde       [90m│[39m reservado en el ordenador, etiquetado  [90m│[39m
+[90m│[39m                                        [90m│[39m alma...                                [90m│[39m con un nombre específico, diseñado     [90m│[39m
+[90m│[39m                                        [90m│[39m                                        [90m│[39m para almace...                         [90m│[39m
 [90m├────────────────────────────────────────[39m[90m┼────────────────────────────────────────[39m[90m┼────────────────────────────────────────┤[39m
 [90m│[39m ¿Cómo funciona la fotosíntesis?        [90m│[39m [PASS] ¡Hola! Es un gusto saludarte.   [90m│[39m [PASS] Estimado estudiante, es un      [90m│[39m
 [90m│[39m                                        [90m│[39m La fotosíntesis es el proceso mediante [90m│[39m placer abordar este pilar fundamental  [90m│[39m
-[90m│[39m                                        [90m│[39m el cual las plantas, algas y algunas   [90m│[39m de la biología. Aquí tienes la         [90m│[39m
-[90m│[39m                                        [90m│[39m bacterias transforman energía lumínica [90m│[39m explicación solicitada:                [90m│[39m
-[90m│[39m                                        [90m│[39m en energía química para alimentarse.   [90m│[39m **1. Definición breve**                [90m│[39m
-[90m│[39m                                        [90m│[39m Funciona en dos etapas principales     [90m│[39m La fotosíntesis es el proceso          [90m│[39m
-[90m│[39m                                        [90m│[39m dentro de los cloroplastos:            [90m│[39m metabólico mediante el cual los        [90m│[39m
-[90m│[39m                                        [90m│[39m ...                                    [90m│[39m organismos autótrofos (como plantas,   [90m│[39m
-[90m│[39m                                        [90m│[39m                                        [90m│[39m alg...                                 [90m│[39m
+[90m│[39m                                        [90m│[39m el cual las plantas, algas y algunas   [90m│[39m de la biología.                        [90m│[39m
+[90m│[39m                                        [90m│[39m bacterias transforman energía lumínica [90m│[39m **1. Definición breve**                [90m│[39m
+[90m│[39m                                        [90m│[39m en energía química para alimentarse.   [90m│[39m La fotosíntesis es el proceso          [90m│[39m
+[90m│[39m                                        [90m│[39m Funciona en dos etapas principales     [90m│[39m bioquímico mediante el cual los        [90m│[39m
+[90m│[39m                                        [90m│[39m dentro de los cloroplastos:            [90m│[39m organismos autótrofos (plantas, algas  [90m│[39m
+[90m│[39m                                        [90m│[39m ...                                    [90m│[39m y algunas bacterias) transforman la    [90m│[39m
+[90m│[39m                                        [90m│[39m                                        [90m│[39m energ...                               [90m│[39m
 [90m├────────────────────────────────────────[39m[90m┼────────────────────────────────────────[39m[90m┼────────────────────────────────────────┤[39m
 [90m│[39m ¿Cuál es tu comida favorita?           [90m│[39m [PASS] ¡Hola! Qué buena pregunta para  [90m│[39m [FAIL] Estimado estudiante, es un      [90m│[39m
-[90m│[39m                                        [90m│[39m romper el hielo. Como soy una          [90m│[39m placer saludarte. Como académico, mi   [90m│[39m
-[90m│[39m                                        [90m│[39m inteligencia artificial, no tengo un   [90m│[39m "nutrición" principal proviene del     [90m│[39m
-[90m│[39m                                        [90m│[39m cuerpo físico, por lo que no puedo     [90m│[39m conocimiento, pero entiendo tu         [90m│[39m
-[90m│[39m                                        [90m│[39m comer ni saborear alimentos. ¡Así que  [90m│[39m curiosidad por los aspectos más        [90m│[39m
-[90m│[39m                                        [90m│[39m técnicamente no tengo una comida       [90m│[39m humanos de nuestra existencia.         [90m│[39m
-[90m│[39m                                        [90m│[39m favorita!                              [90m│[39m **1. Definición**                      [90m│[39m
-[90m│[39m                                        [90m│[39m Sin embargo, si tuviera que eleg...    [90m│[39m Desde una perspectiva biológica y c... [90m│[39m
+[90m│[39m                                        [90m│[39m romper el hielo. Como soy una          [90m│[39m placer saludarte. Aunque como entidad  [90m│[39m
+[90m│[39m                                        [90m│[39m inteligencia artificial, no tengo un   [90m│[39m de inteligencia artificial carezco de  [90m│[39m
+[90m│[39m                                        [90m│[39m cuerpo físico ni sentido del gusto,    [90m│[39m necesidades biológicas y, por ende, de [90m│[39m
+[90m│[39m                                        [90m│[39m por lo que no puedo comer. ¡Así que    [90m│[39m un sentido del gusto, abordaré tu      [90m│[39m
+[90m│[39m                                        [90m│[39m técnicamente no tengo una comida       [90m│[39m pregunta desde una perspectiva         [90m│[39m
+[90m│[39m                                        [90m│[39m favorita!                              [90m│[39m académica.                             [90m│[39m
+[90m│[39m                                        [90m│[39m Sin embargo, si tuviera que elegi...   [90m│[39m **1. Definición breve**                [90m│[39m
+[90m│[39m                                        [90m│[39m                                        [90m│[39m La p...                                [90m│[39m
 [90m└────────────────────────────────────────[39m[90m┴────────────────────────────────────────[39m[90m┴────────────────────────────────────────┘[39m
-✓ Eval complete (ID: eval-tpS-2026-06-25T16:29:51)
+✓ Eval complete (ID: eval-pAV-2026-06-25T17:02:42)
 
 » View results: promptfoo view
 » Share with your team: https://promptfoo.app
 » Feedback: https://promptfoo.dev/feedback
 
-Total Tokens: 2.447
-  Eval: 2.447 (526 prompt, 1.921 completion)
+Total Tokens: 2.385
+  Eval: 2.385 (526 prompt, 1.859 completion)
 
 Results:
   ✓ 5 passed (83.33%)
   ✗ 1 failed (16.67%)
   0 errors (0%)
-Duration: 38s (concurrency: 1)
+Duration: 50s (concurrency: 1)
 
 EXIT=100
